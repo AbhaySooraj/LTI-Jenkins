@@ -1,0 +1,35 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /home/coder/project/workspace/jenkins/workspace/Messi
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /home/coder/project/workspace/jenkins/workspace/Messi/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/AbhaySooraj/LTI-Jenkins # timeout=10
+Fetching upstream changes from https://github.com/AbhaySooraj/LTI-Jenkins
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+ > git fetch --tags --force --progress -- https://github.com/AbhaySooraj/LTI-Jenkins +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 310f7447495c5cfaec3b0cee0d74c44daa52035f (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 310f7447495c5cfaec3b0cee0d74c44daa52035f # timeout=10
+Commit message: "First Commit"
+ > git rev-list --no-walk 310f7447495c5cfaec3b0cee0d74c44daa52035f # timeout=10
+[Messi] $ mvn -f demo/pom.xml clean test
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------------< [0;36mcom.example:demo[0;1m >--------------------------[m
+[[1;34mINFO[m] [1mBuilding demo 1[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.1.0:clean[m [1m(default-clean)[m @ [36mdemo[0;1m ---[m
+[[1;34mINFO[m] Deleting /home/coder/project/workspace/jenkins/workspace/Messi/demo/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.0.2:resources[m [1m(default-resources)[m @ [36mdemo[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/coder/project/workspace/jenkins/workspace/Messi/demo/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:compile[m [1m(default-compile)[m @ [36mdemo[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 1 source file to /home/coder/project/workspace/jenkins/workspace/Messi/demo/target/classes
