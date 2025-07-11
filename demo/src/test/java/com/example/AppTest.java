@@ -16,6 +16,6 @@ public class AppTest
     public void shouldAnswerWithTrue()
     {
         assertTrue( true );
-        sysout
+        System.out.println("Abhay");
     }
 }

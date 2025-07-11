@@ -48,7 +48,7 @@ Commit message: "First Commit"
 [[1;34mINFO[m]  T E S T S
 [[1;34mINFO[m] -------------------------------------------------------
 [[1;34mINFO[m] Running com.example.[1mAppTest[m
-[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.092 s - in com.example.[1mAppTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s - in com.example.[1mAppTest[m
 [[1;34mINFO[m] 
 [[1;34mINFO[m] Results:
 [[1;34mINFO[m] 
@@ -57,7 +57,7 @@ Commit message: "First Commit"
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
 [[1;34mINFO[m] [1;32mBUILD SUCCESS[m
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
-[[1;34mINFO[m] Total time:  6.980 s
-[[1;34mINFO[m] Finished at: 2025-07-11T17:13:12Z
+[[1;34mINFO[m] Total time:  1.453 s
+[[1;34mINFO[m] Finished at: 2025-07-11T17:15:02Z
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
 Finished: SUCCESS
